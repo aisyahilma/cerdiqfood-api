@@ -11,12 +11,14 @@ model Product {
   id String @id @default(ulid())
 
   slug        String  @unique
-  name        String
+  name        String  @unique
   description String?
 
   imageUrl String
 
   price Int
+
+  weight Int @default(0) // in grams
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
