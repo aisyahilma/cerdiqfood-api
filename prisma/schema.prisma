@@ -8,18 +8,15 @@ datasource db {
 }
 
 model Product {
-  id String @id @default(ulid())
-
+  id          String  @id @default(cuid())
+  name        String
   slug        String  @unique
-  name        String  @unique
   description String?
-
+  price       Int
+  inventory   Int     // Tambahkan field ini
+  organic     Boolean
+  weightGrams Int @default(0) // in grams
   imageUrl String
-
-  price Int
-
-  weight Int @default(0) // in grams
-
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
