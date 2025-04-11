@@ -1,18 +1,19 @@
-import { Hono } from "hono";
-import { prisma } from "./lib/prisma";
+import { productRoutes } from "@/routes/product";
+import { OpenAPIHono } from "@hono/zod-openapi";
+import { Scalar } from "@scalar/hono-api-reference";
+import { cors } from "hono/cors";
 
-const app = new Hono();
+const app = new OpenAPIHono();
+app.use(cors());
 
-app.get("/", (c) => {
-  return c.json({
-    message: "Cerdiq Food Backend REST API",
-  });
+app.doc("/openapi.json", {
+  openapi: "3.0.0",
+  info: {
+    title: "Cerdiq Food API",
+    version: "1.0.0",
+  },
 });
+app.route("/products", productRoutes);
 
-app.get("/products", async (c) => {
-  const products = await prisma.product.findMany();
-
-  return c.json(products);
-});
-
+app.get("/", Scalar({ url: "/openapi.json" }));
 export default app;

@@ -19,9 +19,6 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/a8a33e3a-98c3-4e17-a646-1892fc00ef1b/-/preview/500x500/",
-    // category: {
-    //   connect: { name: "Sayuran Hijau" },
-    // },
   },
   {
     name: "Sawi Hijau",
@@ -34,12 +31,6 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/e44a6a14-4366-447b-a30f-585423403138/-/preview/500x500/",
-    // category: {
-    //   connectOrCreate: {
-    //     where: { name: "Sayuran Hijau" },
-    //     create: { name: "Sayuran Hijau" },
-    //   },
-    // },
   },
   {
     name: "Wortel Organik",
@@ -52,12 +43,6 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/c21260fd-203d-4ece-ab35-2b1146b2ab67/-/preview/500x500/",
-    // category: {
-    //   connectOrCreate: {
-    //     where: { name: "Sayuran Akar" },
-    //     create: { name: "Sayuran Akar" },
-    //   },
-    // },
   },
   {
     name: "Tomat Merah",
@@ -70,12 +55,6 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/4bb77da9-5a52-4f6f-ad75-6b50113ceae8/-/preview/500x500/",
-    // category: {
-    //   connectOrCreate: {
-    //     where: { name: "Sayuran Buah" },
-    //     create: { name: "Sayuran Buah" },
-    //   },
-    // },
   },
   {
     name: "Kentang Premium",
@@ -88,12 +67,6 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/4eef5163-ecc6-43ec-a515-db9d40e8c746/-/preview/500x500/",
-    // category: {
-    //   connectOrCreate: {
-    //     where: { name: "Sayuran Akar" },
-    //     create: { name: "Sayuran Akar" },
-    //   },
-    // },
   },
   {
     name: "Bawang Merah",
@@ -106,12 +79,6 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/1e523ea5-7af8-4c90-9850-e2f4133bb466/-/preview/500x500/",
-    // category: {
-    //   connectOrCreate: {
-    //     where: { name: "Bumbu Dapur" },
-    //     create: { name: "Bumbu Dapur" },
-    //   },
-    // },
   },
   {
     name: "Bawang Putih",
@@ -124,11 +91,5 @@ export const dataProducts: DataProducts = [
     weight: 250,
     imageUrl:
       "https://ucarecdn.com/a10c76ec-3d3e-47ce-9184-2099ab0e3dc7/-/preview/500x500/",
-    // category: {
-    //   connectOrCreate: {
-    //     where: { name: "Bumbu Dapur" },
-    //     create: { name: "Bumbu Dapur" },
-    //   },
-    // },
   },
 ];
