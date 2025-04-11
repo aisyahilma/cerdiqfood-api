@@ -8,7 +8,7 @@ export const productRoutes = app;
 
 const getProductsRoute = createRoute({
   method: "get",
-  path: "/products",
+  path: "/",
   responses: {
     200: {
       content: {
