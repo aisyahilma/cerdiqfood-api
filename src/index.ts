@@ -1,6 +1,8 @@
 import { productRoutes } from "@/routes/product";
 import { categoryRoutes } from "@/routes/category";
 import { orderRoutes } from "@/routes/order";
+import { usersRoute } from "./routes/user";
+import { authRoute } from "./routes/auth";
 import { OpenAPIHono } from "@hono/zod-openapi";
 import { Scalar } from "@scalar/hono-api-reference";
 import { cors } from "hono/cors";
@@ -19,6 +21,8 @@ app.doc("/openapi.json", {
 app.route("/products", productRoutes);
 app.route("/categories", categoryRoutes);
 app.route("/orders", orderRoutes);
+app.route("/users", usersRoute);
+app.route("/auth", authRoute);
 
 app.get("/", Scalar({ url: "/openapi.json" }));
 
