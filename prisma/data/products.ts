@@ -13,7 +13,7 @@ export const dataProducts: DataProducts = [
     slug: "bayam-segar",
     description:
       "Bayam organik segar pilihan, kaya akan nutrisi dan vitamin. Dipetik langsung dari kebun organik kami dengan standar kualitas tertinggi. Daun bayam hijau segar, renyah, dan bebas pestisida. Cocok untuk salad, tumis, atau campuran smoothie sehat. Mengandung zat besi, kalsium, dan vitamin A yang melimpah untuk mendukung kesehatan optimal.",
-    price: 50000,
+    price: 5000,
     stockQuantity: 100,
     isOrganic: true,
     weight: 250,
@@ -21,11 +21,11 @@ export const dataProducts: DataProducts = [
       "https://ucarecdn.com/a8a33e3a-98c3-4e17-a646-1892fc00ef1b/-/preview/500x500/",
   },
   {
-    name: "Sawi Hijau",
-    slug: "sawi-hijau",
+    name: "Sawi Putih",
+    slug: "sawi-putih",
     description:
-      "Sawi hijau organik berkualitas premium, dipanen dengan hati-hati dari kebun lokal kami. Bertekstur renyah dengan warna hijau cerah yang menandakan kesegaran maksimal. Kaya akan serat, vitamin C, dan antioksidan. Sempurna untuk tumisan, sup, atau sebagai campuran dalam masakan Asia tradisional. Bebas dari bahan kimia berbahaya dan diproduksi dengan praktik pertanian berkelanjutan.",
-    price: 60000,
+      "Nikmati kesegaran sawi putih pilihan dari CerDiQ Food, dipetik langsung dari kebun kami untuk menjaga kualitas rasa dan nutrisinya.Sawi putih kaya akan vitamin A, C, dan serat, cocok untuk berbagai olahan seperti sup, tumisan, hingga isian bakpao.Teksturnya yang renyah dan rasanya yang lembut membuatnya menjadi bahan favorit untuk menu sehat keluarga.",
+    price: 16000,
     stockQuantity: 100,
     isOrganic: true,
     weight: 250,
@@ -37,7 +37,7 @@ export const dataProducts: DataProducts = [
     slug: "wortel-organik",
     description:
       "Wortel organik premium dengan warna oranye cerah, dipanen dari tanah subur tanpa penggunaan pestisida kimia. Manis, renyah, dan kaya akan beta-karoten yang baik untuk kesehatan mata dan kulit. Cocok untuk dimakan mentah, dibuat jus, dimasak, atau dijadikan camilan sehat. Mengandung serat tinggi dan nutrisi esensial untuk mendukung sistem kekebalan tubuh.",
-    price: 80000,
+    price: 11000,
     stockQuantity: 100,
     isOrganic: true,
     weight: 250,
@@ -61,7 +61,7 @@ export const dataProducts: DataProducts = [
     slug: "kentang-premium",
     description:
       "Kentang organik premium pilihan, berasal dari dataran tinggi dengan tanah paling subur. Bertekstur halus, berukuran seragam, dan memiliki rasa gurih alami. Kaya akan karbohidrat kompleks, vitamin C, dan kalium. Sempurna untuk dipanggang, direbus, digoreng, atau dijadikan puree. Cocok untuk berbagai hidangan dari masakan tradisional hingga internasional. Diproduksi dengan standar organik tertinggi.",
-    price: 100000,
+    price: 11000,
     stockQuantity: 100,
     isOrganic: true,
     weight: 250,
@@ -73,7 +73,7 @@ export const dataProducts: DataProducts = [
     slug: "bawang-merah",
     description:
       "Bawang merah organik berkualitas tinggi, dipetik dari kebun tradisional kami. Memiliki aroma kuat dan rasa pedas yang khas. Kaya akan senyawa antiperadangan dan antioksidan yang membantu meningkatkan sistem kekebalan tubuh. Ideal untuk bumbu masakan, campuran sambal, atau bahan dasar berbagai hidangan Indonesia. Dijamin segar, bersih, dan bebas dari bahan kimia berbahaya.",
-    price: 120000,
+    price: 7000,
     stockQuantity: 100,
     isOrganic: true,
     weight: 250,
@@ -85,7 +85,7 @@ export const dataProducts: DataProducts = [
     slug: "bawang-putih",
     description:
       "Bawang putih organik pilihan, dipanen dengan teknik khusus untuk memaksimalkan kandungan nutrisi. Memiliki aroma tajam dan rasa pedas yang khas, dengan berbagai manfaat kesehatan. Kaya akan allicin, senyawa yang dikenal memiliki sifat antibakteri dan antivirus. Sangat baik untuk meningkatkan sistem kekebalan tubuh, menurunkan tekanan darah, dan mendukung kesehatan jantung. Cocok untuk berbagai masakan, baik sebagai bumbu maupun obat alami.",
-    price: 150000,
+    price: 7000,
     stockQuantity: 100,
     isOrganic: true,
     weight: 250,
